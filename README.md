@@ -14,13 +14,11 @@ git push -u origin master
 
 ## Jasmine and Karma installation
 
-```js
     npm install // Install all the packages
     
     npm install --save-dev jasmine
     npm install --save-dev karma
     npm install --save-dev karma-jasmine karma-chrome-launcher
-```    
 
 Installs Karma dependencies; replace <browser> with whatever you have installed, e.g. chrome, firefox, or ie.
 
