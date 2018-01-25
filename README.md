@@ -12,19 +12,23 @@ git remote add origin https://github.com/fredericaltorres/FuncsJS.git
 git remote -v
 git push -u origin master
 
-## Installation
+## Jasmine and Karma installation
 
-Jasmine and Karma installation
-
+```js
+    npm install // Install all the packages
+    
     npm install --save-dev jasmine
     npm install --save-dev karma
     npm install --save-dev karma-jasmine karma-chrome-launcher
+```    
 
 Installs Karma dependencies; replace <browser> with whatever you have installed, e.g. chrome, firefox, or ie.
 
+# ESLint Installation
+
 Install ESLint https://eslint.org/docs/user-guide/getting-started
 
-    npm install eslint --save-dev    
+    npm install eslint --save-dev
 
 ## For developement
 
@@ -41,5 +45,3 @@ Install ESLint https://eslint.org/docs/user-guide/getting-started
 # To lint a file
 
     node_modules\.bin\eslint yourfile.js
-
-
