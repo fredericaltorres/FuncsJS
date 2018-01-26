@@ -6,12 +6,6 @@
 
 https://docs.microsoft.com/en-us/visualstudio/cross-platform/tools-for-cordova/debug-test/basic-tests-with-jasmine
 
-## Github Repo  
-
-git remote add origin https://github.com/fredericaltorres/FuncsJS.git
-git remote -v
-git push -u origin master
-
 ## Jasmine and Karma installation
 
     npm install // Install all the packages
@@ -43,3 +37,10 @@ Install ESLint https://eslint.org/docs/user-guide/getting-started
 # To lint a file
 
     node_modules\.bin\eslint yourfile.js
+
+
+# Github Repo  
+
+	git remote add origin https://github.com/fredericaltorres/FuncsJS.git
+	git remote -v
+	git push -u origin master
